@@ -1,0 +1,77 @@
+.bank_list{
+
+}
+.bank_icon{
+	background-color: #5ED0BD;
+    width: 115px;
+    height: 115px;
+    margin-top: 15px;
+    margin-left: 15px;
+    border-radius: 15px;
+    padding-top: 15px;
+    padding-left: 15px;
+    cursor: pointer;
+	float: left;
+}
+.bank_new_icon{
+	width: 100px;
+    height: 100px;
+    background-color: #F2F9FF;
+}
+.bank_icon:hover{
+	background-color: #34D0B6;
+}
+.new_bank_form{
+	position: absolute;
+    width: 200px;
+    height: 180px;
+    left: 50%;
+    margin-left: -100px;
+    border: 1px solid #008000;
+    border-radius: 15px;
+	padding-top: 20px;
+	display: none;
+}
+.new_name_bank{
+	margin-bottom: 20px;
+}
+.new_name_bank_bot{
+	margin-top: 15px;
+}
+.cancel_new_bank{
+	color: black;
+}
+.bank_info{
+	width: 100%;
+    background: #52E93A;
+    height: 34px;
+    text-align: center;
+    color: #055000;
+}
+.change_bank_index{
+	float: left;
+    width: 50%;
+    height: 27px;
+    padding-top: 7px;
+}
+.change_bank_index:hover{
+	box-shadow: 0 0 10px black inset;
+}
+.new_mon{
+    width: 100px;
+    height: 55px;
+    background: #52E93A;
+	display: none;
+}
+.new_mon_input{
+    width: 100px;
+}
+.go_mon{
+	width: 50px;
+    height: 20px;
+    margin-top: 5px;
+    margin-left: auto;
+    margin-right: auto;
+    border: 1px solid #008000;
+	text-align: center;
+}

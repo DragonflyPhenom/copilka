@@ -1,0 +1,186 @@
+*{
+	margin-bottom: 0px;
+	margin-left: 0px;
+	margin-right: 0px;
+	margin-top: 0px;
+}
+body{
+	background-color: #BCEFB9;
+}
+.head{
+	height: 50px;
+	width: 100%;
+	background-color: #34D1B2;
+}
+.title_head{
+	color: #fff;
+  font-size: 40px;
+  margin-left: 10px;
+	width: 26%;
+	float: left;
+}
+.enter{
+	width: 100%;
+	height: 20px;
+	padding-top: 2px;
+	background-color: #5ED0BD;
+	color: #006957;
+}
+.con{
+	overflow: hidden;
+	position: relative;
+  background-color: #5ED1BA;
+  width: 320px;
+  height: 220px;
+  z-index: 2;
+	border: 1px solid #006A55;
+	box-shadow: 0px 0 10px #1F7A68;
+	margin-top: 10px;
+}
+.form_reg{
+	position: absolute;
+	width: 1194px;
+    height: 210px;
+	margin-left: 0;
+}
+.con_enter{
+	display: block;
+    height: 130px;
+    padding-top: 30px;
+    width: 320px;
+    float: left;
+}
+.in_login{
+	background-color: #5ED1BA;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 200px;
+	color: #fff;
+	text-align: center;
+}
+.in_pass{
+	background-color: #5ED1BA;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 200px;
+	color: #fff;
+	margin-top: 15px;
+    text-align: center;
+}
+.in_sub{
+    border: none;
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+    color: #34D1B2;
+	-webkit-transition: All 0.2s ease-out;
+    transition: All 0.2s ease-out;
+}
+.in_sub:hover{
+	background-color: #34D1B2;
+	box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+	cursor: pointer;
+	color: #fff;
+}
+.con_reg{
+	display: block;
+    height: 130px;
+    padding-top: 30px;
+	width: 320px;
+	float: left;
+}
+.reg_login{
+	background-color: #5ED1BA;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 200px;
+	color: #fff;
+	text-align: center;
+}
+.reg_pass{
+	background-color: #5ED1BA;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 200px;
+	color: #fff;
+	margin-top: 15px;
+    text-align: center;
+}
+.reg_sub{
+	border: none;
+    width: 140px;
+    height: 25px;
+    margin-top: 10px;
+    color: #34D1B2;
+	-webkit-transition: All 0.2s ease-out;
+    transition: All 0.2s ease-out;
+}
+.reg_sub:hover{
+	background-color: #34D1B2;
+	box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+	cursor: pointer;
+	color: #fff;
+}
+.con_for{
+	display: block;
+    height: 130px;
+    padding-top: 30px;
+    width: 320px;
+	float: left;
+}
+.for_login{
+	background-color: #5ED1BA;
+    border: none;
+    border-bottom: 1px solid #fff;
+    width: 200px;
+	color: #fff;
+	text-align: center;
+}
+.for_sub{
+	border: none;
+    width: 100px;
+    height: 25px;
+    margin-top: 10px;
+    color: #34D1B2;
+	-webkit-transition: All 0.2s ease-out;
+    transition: All 0.2s ease-out;
+}
+.for_sub:hover{
+	background-color: #34D1B2;
+	box-shadow: 2px 2px 2px 0 rgba(0,0,0,0.2) inset;
+	cursor: pointer;
+	color: #fff;
+}
+.content_bot{
+	background-color: #34D1B2;
+    padding-top: 10px;
+    font-family: "RobotoCondensedLight";
+    position: absolute;
+    bottom: 0;
+	color: #fff;
+    width: 100%;
+}
+.reg_bot{
+    font-size: 20px;
+    width: 120px;
+    text-align: center;
+}
+.reg_bot:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+.for_bot{
+    font-size: 20px;
+    width: 150px;
+    text-align: center;
+    margin-top: 10px;
+    padding-bottom: 15px;
+}
+.for_bot:hover{
+	cursor: pointer;
+	text-decoration: underline;
+}
+::-webkit-input-placeholder {color:#fff;}
+::-moz-placeholder          {color:#fff;}/* Firefox 19+ */
+:-moz-placeholder           {color:#fff;}/* Firefox 18- */
+:-ms-input-placeholder      {color:#fff;}

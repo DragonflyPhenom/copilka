@@ -1,0 +1,105 @@
+.other_block_bank{
+	position: absolute;
+    width: 200px;
+    height: 100px;
+    left: 50%;
+    margin-left: -100px;
+    border: 1px solid #008000;
+    border-radius: 15px;
+    background-color: #BCEFB9;
+    text-align: center;
+	display: none;
+}
+.other_block_bank a{
+	text-decoration: none;
+	color: #5b5b5b;
+}
+.bank_other_bot{
+    width: 115px;
+    padding-top: 5px;
+    height: 22px;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
+	cursor: pointer;
+}
+.bank_other_bot:hover{
+	box-shadow: 0 0 5px black inset;
+}
+.bank_radio{
+	margin-top: 12px;
+}
+.bank_sub{
+	background: none;
+    border: none;
+    color: #5b5b5b;
+    height: 25px;
+	width: 115px;
+    padding-top: 5px;
+    margin-top: 7px;
+    margin-left: auto;
+    margin-right: auto;
+    margin-bottom: 3px;
+    cursor: pointer;
+}
+.bank_sub:hover{
+	box-shadow: 0 0 5px black inset;
+}
+#newperevod select{
+	width: 175px;
+    height: 20px;
+}
+.head_content{
+    display: block;
+    width: 100%;
+}
+.type_head_content{
+	width: 150px;
+    float: left;
+    text-align: center;
+    padding-top: 5px;
+    height: 20px;
+    border-bottom: 1px solid #5b5b5b;
+    border-right: 1px solid #5b5b5b;
+}
+.history_block{
+	display: table;
+	cursor: pointer;
+}
+.history_block:hover{
+	background-color: #5ED0BD;
+}
+.win_history{
+	display: none;
+    border-bottom: 1px solid #5b5b5b;
+    border-left: 1px solid #5b5b5b;
+    border-right: 1px solid #5b5b5b;
+	background-color: #fff;
+}
+.footbank{
+	position: absolute;
+	bottom: 0;
+	width: 100%;
+	height: 22px;
+	background-color: #5ED0BD;
+  color: #006957;
+	padding-top: 5px;
+}
+.bank_stat_win{
+	border: 1px solid #008000;
+	background-color: #fff;
+	border-radius: 10px;
+	width: 550px;
+  height: auto;
+  padding: 10px;
+  text-align: center;
+	position: absolute;
+  left: 50%;
+  margin-left: -275px;
+	display: none;
+}
+.bank_stat_win a{
+	text-decoration: none;
+  color: #5b5b5b;
+}

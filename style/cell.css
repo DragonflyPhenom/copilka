@@ -1,0 +1,91 @@
+.cell_head{
+      height: 150;
+      width: 100%;
+      border-bottom: 1px solid #5b5b5b;
+}
+.cell_head_center{
+      width: 400px;
+      position: relative;
+      top: 10px;
+      margin-left: auto;
+      margin-right: auto;
+      height: 130px;
+      border: 1px solid #5b5b5b;
+}
+.cell_new_cell{
+      height: 60px;
+      border-bottom: 1px solid #5b5b5b;
+      background: #fff;
+      margin-bottom: 5px;
+      overflow: auto;
+}
+.cell_cell_sum{
+      width: 230px;
+      position: relative;
+      left: 50%;
+      margin-left: -115px;
+      text-align: center;
+}
+.cell_head_bot{
+      text-align: center;
+      width: 100px;
+      margin-top: 10px;
+      padding-top: 5px;
+      height: 23px;
+      margin-left: auto;
+      margin-right: auto;
+      cursor: pointer;
+}
+.cell_head_bot:hover{
+  box-shadow: 0 0 5px black inset;
+}
+.cell_win{
+      width: 100%;
+}
+.cell_info{
+      height: 40px;
+      width: 400px;
+      border-bottom: 1px solid #5b5b5b;
+      margin-left: auto;
+      margin-right: auto;
+      cursor: pointer;
+}
+.cell_info:hover{
+  background-color: #5ED0BD;
+}
+.cell_name{
+      float: left;
+      border-right: 1px solid #5b5b5b;
+      width: 33%;
+      padding-top: 10px;
+      height: 30px;
+      text-align: center;
+}
+.edit_cell_win{
+  width: 400px;
+  margin-left: auto;
+  margin-right: auto;
+  border-bottom: 1px solid #5b5b5b;
+  display: none;
+}
+.edit_cell_info{
+      background: #fff;
+      margin-top: 5px;
+      text-align: center;
+}
+.edit_cell_foot{
+  width: 100%;
+}
+.edit_cell_bot{
+      width: 100px;
+      text-align: center;
+      padding-top: 5px;
+      margin-top: 5px;
+      height: 23px;
+      margin-left: auto;
+      margin-right: auto;
+      cursor: pointer;
+}
+.edit_cell_bot:hover{
+  box-shadow: 0 0 5px black inset;
+}
